@@ -1,2 +1,2 @@
 # Terra-Projects
-This is my first attempt at building a website in html ... and syncing to Github
+This is my first attempts at making stuff for the terra challenge ... and learning how to sync to Github
