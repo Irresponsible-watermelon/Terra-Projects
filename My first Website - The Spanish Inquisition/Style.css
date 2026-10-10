@@ -1,0 +1,31 @@
+body {
+    background-color:#F0EAD6;
+    font-family: verdana;
+    font-size: 16px;
+        }
+h1, h2, h3, h4 {
+    font-size: 22px;
+    text-align: center;
+        }
+blockquote {
+    font-style: italic;
+    border-left: 4px solid #ccc;
+    margin-left: 20px;
+    padding-left: 20px;
+    }
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding-left:10px;
+  padding-right:10px;
+  padding-top:3px;
+  padding-bottom:3px;
+  width:fit-content
+}
+table {
+  margin:auto;
+}
+.GI-table tr > :nth-child(2), .GI-table tr > :nth-child(3) {
+    text-align: center;
+}
+
