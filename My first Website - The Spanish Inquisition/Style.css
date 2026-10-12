@@ -37,19 +37,6 @@ table {
     border-radius:25px;
     margin-bottom: 10px;
 }
-.button{
-    border-radius: 25px;
-    border:transparent;
-    background: linear-gradient(to right, #ff7e5f, #83118e);
-    margin-bottom: 10px;
-    padding: 10px;
-    text-align: center;
-    font:inherit;
-    cursor: pointer;
-}
-.counter{
-    margin-bottom: 10px;
-}
 .popup-box {
     font:interit;
     position:fixed;
