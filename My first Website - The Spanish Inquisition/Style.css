@@ -22,20 +22,20 @@ table, th, td {
   width:fit-content
 }
 table {
-  margin:auto;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 .GI-table tr > :nth-child(2), .GI-table tr > :nth-child(3) {
     text-align: center;
 }
 .Info-bubble{
-    margin: auto;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 3px;
     padding-bottom: 3px;
-    width: 75%;
     border-radius:25px;
-    margin-bottom: 10px;
+    display: block;
 }
 .popup-box {
     font:interit;
@@ -76,4 +76,22 @@ table {
     top:0;
     left:0;
     z-index: 999;
+}
+.FlexGrid{
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "content content";
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 10px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.FlexGrid div.Header{
+    grid-area: header;
+
+}
+.FlexGrid div.Info-bubble.wide{
+    grid-column: 1 / -1;
 }
