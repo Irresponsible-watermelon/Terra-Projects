@@ -45,7 +45,48 @@ table {
     padding: 10px;
     text-align: center;
     font:inherit;
+    cursor: pointer;
 }
 .counter{
     margin-bottom: 10px;
+}
+.popup-box {
+    font:interit;
+    position:fixed;
+    background-color:white;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: auto;
+    width: 50%;
+    top: 40%;
+    left:25%;
+    align-items: center;
+    z-index: 1000;
+    
+}
+.popup-text {
+    font:inherit;
+    text-align: center;
+    display:block;
+    margin:auto;
+    padding: 10px;
+}
+#popup-button {
+    background-color: transparent;
+    font:inherit;
+    size: 8px;
+    padding: 5px;
+    border:none;
+    float:right;
+    cursor:pointer;
+
+}
+.greyout{
+    position:fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    z-index: 999;
 }

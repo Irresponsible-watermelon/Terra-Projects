@@ -1,5 +1,5 @@
 function updateCounter() {
-    const button = document.querySelector("button");
+    const button = document.querySelector("#button");
     const clickCount = document.getElementById("clickCount");
 
     let count = 0;
