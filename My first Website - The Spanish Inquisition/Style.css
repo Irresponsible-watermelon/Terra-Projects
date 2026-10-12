@@ -22,9 +22,7 @@ table, th, td {
   width:fit-content
 }
 table {
-  margin-bottom: 10px;
-  margin-right: 5px;
-  margin-left: 5px;
+  margin: 5px auto 10px; 
 }
 .GI-table tr > :nth-child(2), .GI-table tr > :nth-child(3) {
     text-align: center;
@@ -94,4 +92,10 @@ table {
 }
 .FlexGrid div.Info-bubble.wide{
     grid-column: 1 / -1;
+}
+.GI-table-Container{
+    max-width: 100%;
+    min-width: 0;
+    overflow-x: auto;
+    box-sizing: border-box;
 }
