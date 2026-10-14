@@ -1,2 +1,2 @@
 My first try at making a website...
-To run/try out, please download the 'My first Website - The Spanish Inquisition' folder, and open 'page 1.html' in your browser
+To run/try out, please download the 'My first Website - The Spanish Inquisition' folder, and open html file in the PR2 folder to try the Prep week 2 site or PR3 folder to try the Prep week 3 site
