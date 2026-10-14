@@ -1,0 +1,9 @@
+[build]
+  base = "My first Website - The Spanish Inquisition/PR3"
+  publish = "."
+  command = ""
+
+[[redirects]]
+  from = "/"
+  to = "/Main-Page.html"
+  status = 200
