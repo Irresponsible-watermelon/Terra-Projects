@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="A website about the Spanish Inquisition, its origins, societal responses, and key figures.">
     <meta name="keywords" content="Spanish Inquisition, Inquisition, Spanish Empire, Inquisitor,">
-    <script src="modal.js" defer></script>
+    <script src="scripts.js" defer></script>
 
 
     <title>The Spanish Inquisition</title>
@@ -76,8 +76,11 @@
 
 
   <div class="table-container is-flex is-justify-content-center">
-    <table class="table is-bordered mt-3">
+    <table class="table is-bordered mt-3" id="InqTable">
       <thead>
+        <tr>
+          <td colspan="4"><input class="input" type="text" placeholder="Search by name, term length, or term date" id="TableSearch" onkeyup="SearchTable()"></td>
+        </tr>
         <tr class="has-text-centered is-italic">
           <td colspan="4">Grand Inquisitors, 1518 to 1572</td>
         </tr>
@@ -89,41 +92,41 @@
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td>Adrian of Utrecht</td>
-          <td class="has-text-centered">1518</td>
-          <td class="has-text-centered">1522</td>
-          <td>4 years</td>
+        <tr class="InqTr">
+          <td class="InqTd">Adrian of Utrecht</td>
+          <td class="has-text-centered InqTd">1518</td>
+          <td class="has-text-centered InqTd">1522</td>
+          <td class="InqTd">4 years</td>
         </tr>
-          <tr>
-          <td>Alonso Manrique de Lara</td>
-          <td class="has-text-centered">1523</td>
-          <td class="has-text-centered">1538</td>
-          <td>15 years</td>
+        <tr class="InqTr">
+          <td class="InqTd">Alonso Manrique de Lara</td>
+          <td class="has-text-centered InqTd">1523</td>
+          <td class="has-text-centered InqTd">1538</td>
+          <td class="InqTd">15 years</td>
         </tr>
-        <tr>
-          <td>Juan Pardo de Tavera</td>
-          <td class="has-text-centered">1539</td>
-          <td class="has-text-centered">1545</td>
-          <td>6 years</td>
+        <tr class="InqTr">
+          <td class="InqTd">Juan Pardo de Tavera</td>
+          <td class="has-text-centered InqTd">1539</td>
+          <td class="has-text-centered InqTd">1545</td>
+          <td class="InqTd">6 years</td>
         </tr>
-        <tr>
-          <td>Garcia de Loaysa</td>
-          <td class="has-text-centered">1546</td>
-          <td class="has-text-centered">1546</td>
-          <td>1 year</td>
+        <tr class="InqTr">
+          <td class="InqTd">Garcia de Loaysa</td>
+          <td class="has-text-centered InqTd">1546</td>
+          <td class="has-text-centered InqTd">1546</td>
+          <td class="InqTd">1 year</td>
         </tr>
-        <tr>
-          <td>Fernando de Valdés y Salas</td>
-          <td class="has-text-centered">1547</td>
-          <td class="has-text-centered">1566</td>
-          <td>19 years</td>
+        <tr class="InqTr">
+          <td class="InqTd">Fernando de Valdés y Salas</td>
+          <td class="has-text-centered InqTd">1547</td>
+          <td class="has-text-centered InqTd">1566</td>
+          <td class="InqTd">19 years</td>
         </tr>    
-        <tr>
-          <td>Diego de Espinosa</td>
-          <td class="has-text-centered">1566</td>
-          <td class="has-text-centered">1572</td>
-          <td>6 years</td>
+        <tr class="InqTr">
+          <td class="InqTd">Diego de Espinosa</td>
+          <td class="has-text-centered InqTd">1566</td>
+          <td class="has-text-centered InqTd">1572</td>
+          <td class="InqTd">6 years</td>
         </tr>
       </tbody>
     </table>
