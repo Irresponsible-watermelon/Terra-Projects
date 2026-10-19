@@ -6,3 +6,5 @@ I've implemented a second page, navbar, a searchable table, and a variety of for
 This has also given me some experience in javascript, where after lots of trial and error I have made a popup disclaimer that opens when you load the website and a search function for my table.
 <br><br>
 I also went through the process of figuring out how to actually upload a website, and after a bunch of trial and error with services asking me to do things I didn't understand, I was able to set it up on netlify by mostly just by linking the git repo, and you can try it out here: <https://spanishinquisition.netlify.app>
+<br><br>
+In prep week 3 specifically, my big focuses were on stylistic consistency across the site and expanding my use of javascript, as seen particularly in my table and quiz.
