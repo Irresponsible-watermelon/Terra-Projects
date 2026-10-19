@@ -59,6 +59,8 @@ const correctAnswers = {
 function InQuiz(event){
     event.preventDefault();
 
+    quizForm.classList.remove("unmarked");
+
     quizForm.querySelectorAll(".is-correct, .is-incorrect").forEach((label) => {
         label.classList.remove(".is-correct", ".is-incorrrect");
     })
