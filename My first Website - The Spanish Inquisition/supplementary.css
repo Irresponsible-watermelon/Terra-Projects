@@ -12,3 +12,13 @@
     background-color: var(--bulma-info-dark);
     color:#fff;
 }
+#Quiz .radio.input.is-correct{
+    border-color: var(--bulma-success);
+    background-color: var(--bulma-success-dark);
+    color:#fff
+}
+#Quiz .radio.input.is-incorrect{
+    border-color: var(--bulma-danger);
+    background-color: var(--bulma-danger-dark);
+    color:#fff
+}
