@@ -1,0 +1,14 @@
+#Quiz .radio.input input[type="radio"] {
+    position:absolute;
+    opacity:0;
+}
+
+#Quiz .radio.input{
+    display:flex;
+}
+
+#Quiz .radio.input:has(input[type="radio"]:checked) {
+    border-color: var(--bulma-info);
+    background-color: var(--bulma-info-dark);
+    color:#fff;
+}
